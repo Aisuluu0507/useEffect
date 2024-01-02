@@ -19,7 +19,7 @@ const TextChanger = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return <div>{text}</div>;
+  return <div className='text'>{text}</div>;
 };
 
 export default TextChanger;
